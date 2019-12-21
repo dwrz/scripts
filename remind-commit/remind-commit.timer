@@ -1,0 +1,13 @@
+[Unit]
+Description=Run remind-commit service
+RefuseManualStart=no
+RefuseManualStop=no
+
+[Timer]
+Persistent=false
+OnBootSec=5min
+OnUnitActiveSec=15min
+Unit=remind-commit.service
+
+[Install]
+WantedBy=graphical.target
