@@ -1,0 +1,13 @@
+[Unit]
+Description=Run ruck-backup service
+RefuseManualStart=no
+RefuseManualStop=no
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+RandomizedDelaySec=1min
+Unit=ruck-backup.service
+
+[Install]
+WantedBy=default.target
