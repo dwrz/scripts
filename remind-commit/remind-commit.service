@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the remind-commit script
+RefuseManualStart=no
+RefuseManualStop=yes
+
+[Service]
+Type=oneshot
+ExecStart=/home/dwrz/ruck/oo/scripts/remind-commit/remind-commit.sh
+
+[Install]
+WantedBy=timers.target
