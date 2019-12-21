@@ -1,0 +1,13 @@
+[Unit]
+Description=Run reveille service
+RefuseManualStart=no
+RefuseManualStop=no
+
+[Timer]
+OnCalendar=*-*-* 6:00:00
+Persistent=true
+RandomizedDelaySec=1min
+Unit=reveille.service
+
+[Install]
+WantedBy=default.target
