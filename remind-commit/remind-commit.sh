@@ -5,6 +5,7 @@ WARNING_MINUTES=15
 
 repos=(
   "$HOME/ruck/oo/journal/"
+  "$HOME/ruck/oo/org/"
 )
 
 for d in "${repos[@]}"; do
