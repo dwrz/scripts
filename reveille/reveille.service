@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the reveille script
+RefuseManualStart=no
+RefuseManualStop=yes
+
+[Service]
+Type=oneshot
+ExecStart=/home/dwrz/ruck/oo/scripts/reveille/reveille.sh
+
+[Install]
+WantedBy=timers.target
