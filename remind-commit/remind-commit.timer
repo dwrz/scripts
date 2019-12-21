@@ -10,4 +10,4 @@ OnUnitActiveSec=15min
 Unit=remind-commit.service
 
 [Install]
-WantedBy=graphical.target
+WantedBy=default.target
