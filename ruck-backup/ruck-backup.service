@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the ruck-backup script
+RefuseManualStart=no
+RefuseManualStop=yes
+
+[Service]
+Type=oneshot
+ExecStart=/home/dwrz/ruck/oo/scripts/ruck-backup/ruck-backup.sh
+
+[Install]
+WantedBy=timers.target
