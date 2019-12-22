@@ -16,13 +16,15 @@ fi
 error="false"
 rsync -av --progress --delete "$HOME/ruck/" \
       dwrz@mobile:/data/data/com.termux/files/home/ruck/
-if ! [[ $? ]]; then
+result=$?
+if [[ result -ne 0 ]]; then
   error="true"
   notify-send "WARNING" "Failed to backup ruck to mobile."
 fi
 
 rsync -av --progress --delete "$HOME/ruck/" dwrz@srv-nyc:/home/dwrz/ruck/
-if ! [[ $? ]]; then
+result=$?
+if [[ result -ne 0 ]]; then
   error="true"
   notify-send "WARNING" "Failed to backup ruck to srv-nyc."
 fi
