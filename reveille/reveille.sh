@@ -16,8 +16,7 @@ estimated_remaining_days_fmt="$(numfmt --grouping $estimated_remaining_days)"
 age="$(age -year $birth_year -month $birth_month -day $birth_day -output days)"
 age_fmt="$(numfmt --grouping $age)"
 
-# TODO: get daily wisdom.
-wisdom="$()"
+wisdom="$($HOME/ruck/oo/scripts/wisdom/wisdom.sh)"
 
 message_file="/tmp/reminder-$date_unix"
 cat > "$message_file" << EOF
@@ -40,6 +39,8 @@ Remember:
 - No plan ever survives initial contact with reality.
 - Fatigue does not equal fitness.
 - Slow is smooth, and smooth is fast.
+
+QOTD:
 
 $wisdom
 
