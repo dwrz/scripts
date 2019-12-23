@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+GOPATH="$HOME/.go"
+PATH="$GOPATH/bin:$PATH"
+
 date="$(date '+%Y%m%d %j/365 %W/52 %u/7')"
 date_unix="$(date +%s)"
 
