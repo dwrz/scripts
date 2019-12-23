@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+eval "$(keychain --noask --eval mobile srv-nyc)"
+
 notify-send "INFO" "Starting ruck backup."
 
 if ! [[ "$HOSTNAME" == "earth" ]]; then
@@ -14,7 +16,7 @@ if ! [[ -d "$HOME/ruck" ]]; then
 fi
 
 error="false"
-rsync -av --progress --delete "$HOME/ruck/" \
+rsync -av --progress --delete -e "ssh -i $HOME/.ssh/mobile" "$HOME/ruck/" \
       dwrz@mobile:/data/data/com.termux/files/home/ruck/
 result=$?
 if [[ result -ne 0 ]]; then
@@ -22,7 +24,8 @@ if [[ result -ne 0 ]]; then
   notify-send "WARNING" "Failed to backup ruck to mobile."
 fi
 
-rsync -av --progress --delete "$HOME/ruck/" dwrz@srv-nyc:/home/dwrz/ruck/
+rsync -av --progress --delete -e "ssh -i $HOME/.ssh/srv-nyc" "$HOME/ruck/" \
+      dwrz@srv-nyc:/home/dwrz/ruck/
 result=$?
 if [[ result -ne 0 ]]; then
   error="true"
