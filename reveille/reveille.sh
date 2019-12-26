@@ -36,9 +36,13 @@ Make the most of the time you have.
 
 Remember:
 - If you have the essentials, you have the foundations for happiness.
-- You are surrounded by people largely like youself: imperfect and evanescent.
+- You are surrounded by people largely like youself: imperfect and
+  evanescent.
+- People have invested in you -- with time, energy, money, lessons, and
+  perspectives. Living things have given their life to sustain you. You
+  owe the world the best version of yourself.
 - The ego does not always act in its best interests.
-- Beware of sirens' songs.
+- Beware the sirens' song.
 - No plan ever survives initial contact with reality.
 - Fatigue does not equal fitness.
 - Slow is smooth, and smooth is fast.
