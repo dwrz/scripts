@@ -5,4 +5,4 @@ if ! [[ -x "$(command -v fortune)" ]]; then
   exit 1
 fi
 
-fortune -e "$HOME"/ruck/oo/scripts/wisdom/*.fortune
+fortune -a "$HOME"/ruck/oo/scripts/wisdom/*.fortune
