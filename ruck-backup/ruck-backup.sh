@@ -24,6 +24,15 @@ if [[ result -ne 0 ]]; then
   notify-send "WARNING" "Failed to backup ruck to mobile."
 fi
 
+error="false"
+rsync -av --progress --delete -e "ssh -i $HOME/.ssh/tablet" "$HOME/ruck/" \
+      dwrz@tablet:/data/data/com.termux/files/home/ruck/
+result=$?
+if [[ result -ne 0 ]]; then
+  error="true"
+  notify-send "WARNING" "Failed to backup ruck to tablet."
+fi
+
 rsync -av --progress --delete -e "ssh -i $HOME/.ssh/srv-nyc" "$HOME/ruck/" \
       dwrz@srv-nyc:/home/dwrz/ruck/
 result=$?
