@@ -2,7 +2,7 @@
 
 eval "$(keychain --noask --eval mobile srv-nyc)"
 
-notify-send "INFO" "Starting ruck backup."
+notify-send -u low "INFO" "Starting ruck backup."
 
 if ! [[ "$HOSTNAME" == "earth" ]]; then
   echo "invalid host" >&2
@@ -10,7 +10,7 @@ if ! [[ "$HOSTNAME" == "earth" ]]; then
 fi
 
 if ! [[ -d "$HOME/ruck" ]]; then
-  notify-send "WARNING" "Unable to find ruck at $HOME/ruck."
+  notify-send -u critical "ERROR" "Unable to find ruck at $HOME/ruck."
   echo "unable to find ruck at $HOME/ruck" >&2
   exit 2
 fi
@@ -42,5 +42,5 @@ if [[ result -ne 0 ]]; then
 fi
 
 if [[ "$error" == "false" ]]; then
-  notify-send "INFO" "Completed ruck backup with no errors."
+  notify-send -u low "INFO" "Completed ruck backup with no errors."
 fi
