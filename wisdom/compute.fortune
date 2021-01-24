@@ -86,3 +86,12 @@ Get your head on straight, invest the right way.
 
 Alan Kay, Rethinking CS Education
 %
+Humans are incapable of securely storing high-quality cryptographic keys, and
+they have unacceptable speed and accuracy when performing cryptographic
+operations. They are also large, expensive to maintain, difficult to manage, and
+they pollute the environment. It is astonishing that these devices continue to
+be manufactured and deployed, but they are sufficiently pervasive that we must
+design our protocols around their limitations.
+
+Network Security: Private Communication in a Public World
+%
