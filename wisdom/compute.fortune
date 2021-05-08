@@ -101,3 +101,233 @@ and the wrecking bar on the site.
 
 Frank Lloyd Wright
 %
+The Joys of the Craft
+
+Why is programming fun? What delights may its practitioner expect as his reward?
+
+First is the sheer joy of making things. As the child delights in his mud pie,
+so the adult enjoys building things, especially things of his own design. I
+think this delight must be an image of God's delight in making things, a delight
+shown in the distinctness and newness of each leaf and each snowflake.
+
+Second is the pleasure of making things that are useful to other people. Deep
+within, we want others to use our work and to find it helpful. In this respect
+the programming system is not essentially different from the child's first clay
+pencil holder "for Daddy's office."
+
+Third is the fascination of fashioning complex puzzle-like objects of
+interlocking moving parts and watching them work in subtle cycles, playing out
+the consequences of principles built in from the beginning. The programmed
+computer has all the fascination of the pinball machine or the jukebox
+mechanism, carried to the ultimate.
+
+Fourth is the joy of always learning, which springs from the nonrepearing nature
+of the task. In one way or another the problem is ever new, and its solver
+learns something: sometimes practical, sometimes theoretical, and sometimes
+both.
+
+Finally, there is the delight of working in such a tractable medium. The
+programmer, like the poet, works only slightly removed from pure
+thought-stuff. He builds his castles in the air, from air, creating by exertion
+of the imagination. Few media of creation are so flexible, so easy to polish and
+rework, so readily capable of realizing grand conceptual structures. (As we
+shall see later, this very tractability has its own problems.)
+
+Yet the program construct, unlike the poet's words, is real in the sense that it
+moves and works, producing visible outputs separate from the construct
+itself. It prints results, draws pictures, produces sounds, moves arms. The
+magic of myth and legend has come true in our time. One types the correct
+incantation on a keyboard, and a display screen comes to life, showing things
+that never were nor could be.
+
+Programming then is fun because it gratifies creative longings built deep within
+us and delights sensibilities we have in common with all men.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+The Woes of the Craft
+
+Not all is delight, however, and knowing the inherent woes makes it easier to
+bear them when they appear.
+
+First, one must perform perfectly. The computer resembles the magic of legend in
+this respect, too. If one character, one pause, of the incantation is not
+strictly in proper form, the magic doesn't work. Human beings are not accustomed
+to being perfect, and few areas of human activity demand it. Adjusting to the
+requirement for perfection is, I think, the most difficult part of learning to
+program.
+
+Next, other people set one's objectives, provide one's resources, and furnish
+one's information. One rarely controls the circumstances of his work, or even
+its goal. In management terms, one's authority is not sufficient for his
+responsability. In practice, actual (as opposed to formal) authority is acquired
+from the very momentum of accomplishment.
+
+The dependence upon others has a particular case that is especially painful for
+the system programmer. He depends upon other people's programs. These are often
+maldesigned, poorly implemented, incompletely delivered (no source code or test
+case), and poorly documented. So he must spend hours studying and fixing things
+that in an ideal world would be complete, available, and usable.
+
+The next woe is that designing grand concepts is fun; finding nitty little bugs
+is just work. With any creative activity come dreary hours of tedious,
+painstaking labor, and programming is no exception.
+
+Next, one finds that debugging has a linear convergence, or worse, where one
+somehow expects a quadratic sort of approach to the end. So testing drags on and
+on, the last difficult bugs taking more time to find than the first.
+
+The last woe, and sometimes the last straw, is that the product over which one
+has labored so long appears to be obsolete upon (or before) completion. Already
+colleagues and competitors are in hot pursuit of new and better ideas. Already
+the displacement of one's thought-child is not only conceived, but scheduled.
+
+This always seems worse than is really is. The new and better product is
+generally not available when one completes his own; it is only talked about. It,
+too, will require months of development. The real tiger is never a match for the
+paper one, unless actual use is wanted. Then the virtues of reality have a
+satisfaction all their own.
+
+Of course the technological base on which one builds is always advancing. As
+soon as one freezes a design, it becomes obsolete in terms of its concepts. But
+implementation of real products demands phasing and quantizing. The obsolescence
+of an implementation must be measured against other existing implementations,
+not against unrealized concepts. The challenge and the mission are to find real
+solutions to real problems on actual schedules with available resources.
+
+This then is programming, both a tar pit in which many efforts have floundered
+and a creative activity with joys and woes all its own. For many, the joys far
+outweigh the woes, and for them the remainder of this book will attempt to lay
+some boardwalks across the tar.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Our techniques for estimating are poorly developed . . . they reflect an
+unvoiced assumption which is quite untrue, i.e., that all will go well.
+
+Our estimating techniques fallaciously confuse effort with progress, hiding the
+assumption that men and months are interchangeable.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+The bearing of a child takes nine months, no matter how many women are assigned.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Since software construction is inherently a systems effort -- an exercise in
+complex interrelationships -- communication effort is great, and it quickly
+dominates the decrease in idividual task time brought about by
+partitioning. Adding more men then lengthens, not shortens, the schedule.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Observe that for the programmer, as for the chef, the urgency of the patron may
+govern the scheduled completion of the task, but it cannot govern the actual
+completion. An omelette, promised in two minutes, may appear to be progressing
+nicely. But when it has not set in two minutes, the customer has two choices -
+wait or eat it raw. Software customers have had the same choices.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Adding manpower to a late software project makes it later.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+“This great church is an incomparable work of art. There is neither aridity nor
+confusion in the tenets it sets forth.
+
+It is the zenith of a style, the work of artists who had understood and
+assimilated all their predecessors' successes, in complete possession of the
+techniques of their times, but using them without indiscreet display nor
+gratuitous feats of skill.
+
+It was Jean d'Orbais who undoubtedly conceived the general plan of the building,
+a plan which was respected, at least in its essential elements, by his
+successors. This is one of the reasons for the extreme coherence and unity of
+the edifice.
+
+—REIMS CATHEDRAL GUIDEBOOK
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Against these, the architectural unity of Rheims stands in glorious
+contrast. The joy that stirs the beholder comes as much from the integrity of
+the design as from any particular excellences. As the guidebook tells, this
+integrity was achieved by the self-abnegation of eight generations of builders,
+each of whom sacrificed some of his ideas so that the whole might be of pure
+design. The result proclaims not only the glory of God, but also His power to
+salvage fallen men from their pride.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Ease of use is enhanced only if the time gained in functional specification
+exceeds the time lost in learning, remembering, and searching manuals. With
+modern programming systems this gain does exceed the cost, but in recent years
+the ratio of gain to cost seems to have fallen as more and more complex
+functions have been added. I am haunted by the memory of the ease of use of the
+IBM 650, even without an assembler or any other software at all.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+The architect of a system, like the architect of a building, is the user's
+agent. It is his job to bring professional and technical knowledge to bear in
+the unalloyed interest of the user, as opposed to the interests of the salesman,
+the fabricator, etc.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Architecture must be carefully distinguished from implementation. As Blaauw has
+said, "Where architecture tells what happens, implementation tells how it is
+made to happen." He gives as a simple example a clock, whose architecture
+consists of the face, the hands, and the winding knob. When a child has learned
+this architecture, he can tell time as easily from a wristwatch as from a church
+tower. The implementation, however, and its realization, describe what goes on
+inside the case -- powering by any of many mechanisms and accuracy control by any
+of many.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+If a system is to have conceptual integrity, someone must control the
+concepts. That is an aristocracy that needs no apology.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+There are many examples from other arts and crafts that lead one to believe that
+discipline is good for art. Indeed, an artist's aphorism asserts, "Form is
+liberating." The worst buildings are those whose budget was too great for the
+purposes to be served.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+This effect, which I have seen many times, is confirmed by R. W. Conway, whose
+group at Cornell built the PLIC compiler for the PLII language. He says, "We
+finally decided to implement the language unchanged and unimproved, for the
+debates about language would have taken all our effort."
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+It is a very humbling experience to make a multimillion-dollar mistake, but it
+is also very memorable.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+An architect's first work is apt to be spare and clean. He knows he doesn't know
+what he's doing, so he does it carefully and with great restraint.
+
+As he designs the first work, frill after frill and embellishment after
+embellishment occur to him. These get stored away to be used "next time". Sooner
+or later the first system is finished, and the architect, with firm confidence
+and a demonstrated mastery of that class of systems, is ready to build a second
+system.
+
+This second is the most dangerous system a man ever designs.  When he does his
+third and later ones, his prior experiences will confirm each other as to the
+general characteristics of such systems, and their differences will identify
+those parts of his experience that are particular and not generalizable.
+
+The general tendency is to over-design the second system, using all the ideas
+and frills that were cautiously sidetracked on the first one. The result, as
+Ovid says, is a "big pile".
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
