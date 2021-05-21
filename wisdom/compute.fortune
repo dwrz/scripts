@@ -17,7 +17,7 @@ equal say in what was going on.
 
 Gordon Moore
 %
-But at the time, we lacked the benefits of age and experience. We didn't know we
+At the time, we lacked the benefits of age and experience. We didn't know we
 couldn't do it.
 
 Ed Roberts
@@ -330,4 +330,45 @@ and frills that were cautiously sidetracked on the first one. The result, as
 Ovid says, is a "big pile".
 
 Frederick P. Brooks Jrs, The Mythical Man Month
+%
+The manual must not only describe everything the user does see, including all
+interfaces; it must also refrain from describing what the user does not
+see. That is the implementer's business, and there his design freedom must be
+unconstrained.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+"Never go to sea with two chronometers; take one or three."
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+In most computer projects there comes a day when it is discovered that the
+machine and the manual don't agree. When the confrontation follows, the manual
+usually loses, for it can be changed far more quickly and cheaply than the
+machine.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+First, the man with strong management talent and strong technical talent is
+rarely found. Thinkers are rare; doers are rarer; and thinker-doers are rarest.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+The job done least well by project managers is to utilize the technical genius
+who is not strong on management talent.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Practice is the best of all instructors.
+
+Publius
+%
+Experience is a dear teacher, but fools will learn at no other.
+
+Poor Richard's Almanac
+%
+The author should gaze at Noah, and . . . learn, as they did in the Ark, to
+crowd a great deal of matter into a very small compass.
+
+Sydney Smith, Edinburgh Review
 %
