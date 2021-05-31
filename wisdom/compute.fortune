@@ -372,3 +372,83 @@ crowd a great deal of matter into a very small compass.
 
 Sydney Smith, Edinburgh Review
 %
+Sometimes strategic breakthrough will be a new algorithm, such as the
+Cooley-Tukey Fast Fourier Transform or the substitution of n log n sort for an
+n^2 set of comparisons.  Much more often, strategic breakthrough will come from
+redoing the representation of the data or tables. This is where the heart of the
+program lies. Show me your flowcharts and conceal your tables, and I shall
+continue to be mystified. Show me your tables, and I won't usually need your
+flowcharts; they'll obvious.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+The programmer at wit's end for lack of space can often do best by disentengling
+himself from his code, rearing back, and contemplating his data. Representation
+is the essence of programming.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Chemical engineers learned long ago that a process that works in the laboratory
+cannot be implemented in a factory in only one step. An intermediate step called
+the PILOT PLANT is necessary to give experience in scaling quantities up and in
+operating in nonprotective environments. For example, a laboratory process for
+desalting water will be tested in a pilot plant of 10,000 gallon/day capacity
+before being used for a 2,000,000 gallon/day community water system.
+
+Programming system builders have also been exposed to this lesson, but it seems
+to have not yet been learned. Project after project designs a set of algorithems
+and then plunges into construction of customer-deliverable software on a
+schedule that demands delivery of the first thing built.
+
+In most projects, the first system built is barely usable. It may be too slow,
+too big, awkward to use, or all three. There is no alternative but to start
+again, smarting but smarter, and build a redesigned version in which these
+problems are solved. The discard and redesign may be done in one lump, or it may
+be done piece-by-piece. But all large-system experience shows that it will be
+done. Where a new system concept or new technology is used, one has to build
+a system to throw away, for even the best planning is not so omniscient as to
+get it right the first time.
+
+The management question here, therefore, is not whether to build a pilot system
+and throw it away. You will do that. The only question is whether to plan in
+advance to build and throw away, or to promise to deliver the throwaway to
+customers. Seen this way, the answer is much clearer. Delivering that throwaway
+to customers buys time, but it does so only at the cost of agony for the user,
+distraction for the builders while they do the redesign and a bad reputation for
+the product that the best redesign will find hard to live down.
+
+Hence plan to throw one away; you will, anyhow.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
+Lehman and Belady have studied the history of successive releases in a large
+operating system. They find that the total number of modules increases linearly
+with release number, but that the num- ber of modules affected increases
+exponentially with release num- ber. All repairs tend to destroy the structure,
+to increase the entropy and disorder of the system. Less and less effort is
+spent on fixing original design flaws; more and more is spent on fixing flaws
+introduced by earlier fixes. As time passes, the system becomes less and less
+well-ordered. Sooner or later the fixing ceases to gain any ground. Each forward
+step is matched by a backward one. Although in principle usable forever, the
+system has worn out as a base for progress. Furthermore, machines change,
+configurations change, and user requirements change, so the system is not in
+fact usable forever. A brand-new, from-the- ground-up redesign is necessary.
+
+And so from a statistical mechanical model, Belady and Leh- man arrive for
+programming-systems at a more general conclusion supported by the experience of
+all the earth. "Things are always at their best in the beginning," said
+Pascal. C. S. Lewis has stated it more perceptively:
+
+That is the key to history. Terrific energy is expended—civilizations are built
+up—excellent institutions devised; but each time something goes wrong. Some
+fatal flaw always brings the selfish and cruel people to the top, and then it
+all slides back into misery and ruin. In fact, the machine conks. It seems to
+start up all right and runs a few yards, and then it breaks down.
+
+Systems program building is an entropy-decreasing process, hence inherently
+metastable. Program maintenance is an entropy- increasing process, and even its
+most skillful execution only delays the subsidence of the system into unfixable
+obsolescence.
+
+Frederick P. Brooks Jrs, The Mythical Man Month
+%
